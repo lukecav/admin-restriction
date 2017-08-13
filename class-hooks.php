@@ -12,16 +12,6 @@ class AR_Hooks {
 		return self::$instance;
 	}
 
-	public function disallow_editor() {
-		global $current_user;
-		get_currentuserinfo();
-		if ( $current_user->ID != 1 ) {
-			if ( ! defined( 'DISALLOW_FILE_MODS' ) {
-				define( 'DISALLOW_FILE_MODS', true );
-			}
-    }
-	}
-
 	public function hide_plugin_controls( $actions ) {
 		global $current_user;
 		get_currentuserinfo();
