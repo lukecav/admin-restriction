@@ -4,7 +4,7 @@ Donate link:
 Tags: WordPress Core update, plugin install, plugin update, plugin delete
 Requires at least: 4.6
 Tested up to: 4.8.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,9 +30,10 @@ The administrator created at WordPress installation (administrator with id 1) wi
 
 = trunk =
 * Changed static function to non static function bug, props [Remyvv](https://github.com/remyvv).
-* Wrapped DISALLOW_FILE_MODS definition in a defined check, props [Remyvv](https://github.com/remyvv).
 * Code style change, file name change.
 
+= 1.1.3 =
+* Removed disallow_editor from class-hooks.
 
 = 1.1.2 =
 * Added WordPress 3.5.1 support.
